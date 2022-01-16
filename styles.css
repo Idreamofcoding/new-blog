@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* IMAGE FOR LANDING */
+
+.landing {
+
+}
+
+.landing img {
+    width: 100%;
+    max-height: 600px;
+}
+
+
+/* HOMEPAGE BLOG */
+.blog_homepage_container {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;    
+}
+
+.item img {
+    width: 80%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog_homepage_container > div.item {
+    flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    border: 5px solid green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item a {
+    background-color: blue;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+/* all blogs button */
+.allblogsbuttoncontainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* FORM Sign up */
+
+/* LOGIN FORM */
+
+/* PAGINATION */
+
+.pagination {
+    text-align: center;
+
+}
+
+.pagination button {
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+}
+
+/* CONTACT FORM */
+
+#contactheading {
+    font-size: 50px;
+    color: red;
+}
+
+/* INDIVIDUAL BLOG 1 */
+
+.image {
+    background-color: royalblue;
+    width: 300px;
+    height: 300px;
+}
+
+.image p {
+    color: white;
+
+}
+
+.like-and-share-features button {
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#admin-feature {
+    width: 1000px;
+    color: purple;
+    font-size: 100px;
+}
